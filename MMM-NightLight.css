@@ -1,0 +1,65 @@
+
+
+
+@-webkit-keyframes change-color {
+  0%   { background-color: #ffffff; }
+  10%  { background-color: #f8eae4; }
+  20%  { background-color: #c9e7c2; }
+  30% { background-color: #f3f7bf; }
+  40%   { background-color: #fbaf99; }
+  50%  { background-color: #ecbfeb; }
+  60%  { background-color: #dddddd; }
+  70% { background-color: #f35f1f; }
+  80%  { background-color: #88e04e; }
+  90%  { background-color: #44cad5; }
+  100% { background-color: #c9edd1; }
+}
+@-moz-keyframes change-color {
+  0%   { background-color: #ffffff; }
+  10%  { background-color: #f8eae4; }
+  20%  { background-color: #c9e7c2; }
+  30% { background-color: #f3f7bf; }
+  40%   { background-color: #fbaf99; }
+  50%  { background-color: #ecbfeb; }
+  60%  { background-color: #dddddd; }
+  70% { background-color: #f35f1f; }
+  80%  { background-color: #88e04e; }
+  90%  { background-color: #44cad5; }
+  100% { background-color: #c9edd1; }
+}
+@-o-keyframes change-color {
+  0%   { background-color: #ffffff; }
+  10%  { background-color: #f8eae4; }
+  20%  { background-color: #c9e7c2; }
+  30% { background-color: #f3f7bf; }
+  40%   { background-color: #fbaf99; }
+  50%  { background-color: #ecbfeb; }
+  60%  { background-color: #dddddd; }
+  70% { background-color: #f35f1f; }
+  80%  { background-color: #88e04e; }
+  90%  { background-color: #44cad5; }
+  100% { background-color: #c9edd1; }
+}
+@keyframes change-color {
+  0%   { background-color: #ffffff; }
+  10%  { background-color: #f8eae4; }
+  20%  { background-color: #c9e7c2; }
+  30% { background-color: #f3f7bf; }
+  40%   { background-color: #fbaf99; }
+  50%  { background-color: #ecbfeb; }
+  60%  { background-color: #dddddd; }
+  70% { background-color: #f35f1f; }
+  80%  { background-color: #88e04e; }
+  90%  { background-color: #44cad5; }
+  100% { background-color: #c9edd1; }
+}
+
+.MMM-NightLight .veil {
+	border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  -webkit-animation: change-color 10s infinite; /* Safari 4+ */
+  -moz-animation:    change-color 10s infinite; /* Fx 5+ */
+  -o-animation:      change-color 10s infinite; /* Opera 12+ */
+  animation:         change-color 10s infinite; /* IE 10+ */
+}
