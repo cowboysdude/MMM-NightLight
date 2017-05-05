@@ -33,11 +33,11 @@
      getDom: function() {
      	
          var wrapper = document.createElement("div");
-         wrapper.classList.add("veil");
+         
          wrapper.style.maxWidth = this.config.maxWidth;
 
          var NightLight = document.createElement("div");
-         NightLight.classList.add("pole");
+         NightLight.classList.add("veil");
          NightLight.innerHTML = '';
          wrapper.appendChild(NightLight);
 				 
