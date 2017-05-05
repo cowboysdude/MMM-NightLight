@@ -53,7 +53,7 @@
 
 .MMM-NightLight .veil {
   width: 100%;
-  height: 20px;
+  height: 15px;
   -webkit-animation: change-color 20s infinite; /* Safari 4+ */
   -moz-animation:    change-color 20s infinite; /* Fx 5+ */
   -o-animation:      change-color 20s infinite; /* Opera 12+ */
