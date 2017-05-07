@@ -1,3 +1,6 @@
+
+
+
 @-webkit-keyframes change-color {
   0%   { background-color: #ffffff; }
   10%  { background-color: #f8eae4; }
@@ -58,4 +61,6 @@
   -moz-animation:    change-color 20s infinite; /* Fx 5+ */
   -o-animation:      change-color 20s infinite; /* Opera 12+ */
   animation:         change-color 20s infinite; /* IE 10+ */
+  box-shadow: 0px 0px 20px 1px #fff;
+  border: 1px solid #fff;
 }
