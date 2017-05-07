@@ -1,32 +1,18 @@
- /* Magic Mirror
-  * Module: MMM-M
+  /* Magic Mirror
+  * Module: MMM-NightLight
   *
   * By John Wade
   * MIT Licensed.
   */
  Module.register("MMM-NightLight", {
-
-     // Module config defaults.
-     defaults: {
-         //color: #fff
-     },
-
-     // Define required scripts.
-     getScripts: function() {
-         return ["moment.js"];
-     },
-
+     
      getStyles: function() {
          return ["MMM-NightLight.css"];
      },
 
      // Define start sequence.
      start: function() {
-         Log.info("Starting module: " + this.name);
-
-         // Set locale.
-         moment.locale(config.language);
-         this.today = "";
+         Log.info("Starting: " + this.name);
          this.loaded = true;
      },
 
